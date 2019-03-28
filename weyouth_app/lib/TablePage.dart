@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 class TablePage extends StatefulWidget {
   @override
@@ -8,6 +9,6 @@ class TablePage extends StatefulWidget {
 class _TablePageState extends State<TablePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return new WebView(initialUrl: "https://www.youtube.com",);
   }
 }

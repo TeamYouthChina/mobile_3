@@ -17,7 +17,8 @@ class _MessagePageState extends State<MessagePage> {
           );
         }),
     );*/
-    return new WebviewScaffold(url: "https://www.google.com ",appBar: new AppBar(title: new Text("Widget webview"),),);
+   return new WebView(initialUrl: "https://www.google.com",);
+    //return new WebviewScaffold(url: "https://www.google.com ",appBar: new AppBar(title: new Text("Widget webview"),),);
   }
 }
 
